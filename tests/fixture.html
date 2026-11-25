@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Тестовый разговор — ChatGPT</title>
+  <style>.whitespace-pre-wrap { white-space: pre-wrap; } .gone { display: none; }</style>
+</head>
+<body>
+  <nav data-message-author-role="user">NOT_A_MESSAGE_SIDEBAR</nav>
+  <main>
+    <article data-message-author-role="user" data-message-id="fixture-user-0"><div class="whitespace-pre-wrap">Привет!
+Вторая строка &lt;script&gt;alert(1)&lt;/script&gt;</div></article>
+    <article data-message-author-role="assistant" data-message-id="fixture-assistant-1"><div class="markdown">
+      <h2>Ответ</h2>
+      <p><strong>Жирный</strong> и <em>курсив</em>; <code>a`b</code>.</p>
+      <p>Ссылка: <a href="https://example.invalid/a(b)?x=1&amp;y=2">источник</a>. <a href="javascript:alert(1)">небезопасная</a></p>
+      <pre data-language="javascript"><header><button>Copy code</button></header><code class="language-js">const fence = "```";
+
+
+console.log(fence);
+</code></pre>
+      <ol start="3"><li>Три</li><li value="6">Шесть<ul><li>Вложенный пункт</li></ul></li></ol>
+      <blockquote><p>Цитата</p></blockquote>
+      <table><thead><tr><th>Имя</th><th>Значение</th></tr></thead><tbody><tr><td>a | b</td><td><code>x|y</code></td></tr></tbody></table>
+      <p>Формула: <span class="katex"><span class="katex-mathml"><math><semantics><mi>x</mi><annotation encoding="application/x-tex">x^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true">DUPLICATE_FORMULA</span></span></p>
+      <p><img alt="кот &lt;tag&gt;"></p>
+      <p hidden>NOT_A_MESSAGE_HIDDEN</p>
+      <p aria-hidden="true">NOT_A_MESSAGE_ARIA_HIDDEN</p>
+      <script type="application/json">{"secret":"NOT_A_MESSAGE_SCRIPT"}</script>
+    </div><button>NOT_A_MESSAGE_BUTTON</button></article>
+    <section class="gone"><div data-message-author-role="assistant">NOT_A_MESSAGE_CSS_HIDDEN</div></section>
+    <section hidden><div data-message-author-role="assistant">NOT_A_MESSAGE_HIDDEN_PARENT</div></section>
+    <form><textarea>NOT_A_MESSAGE_COMPOSER</textarea></form>
+  </main>
+</body>
+</html>

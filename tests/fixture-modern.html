@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ru">
+<head><meta charset="utf-8"><title>Новая разметка — ChatGPT</title>
+<style>[data-user-message-bubble] { white-space: pre-wrap; }</style></head>
+<body>
+  <nav><div data-content-search-unit-key="sidebar:user">NOT_A_MESSAGE_SIDEBAR</div></nav>
+  <main hidden><div data-message-author-role="assistant">NOT_A_MESSAGE_HIDDEN</div></main>
+  <div role="main" id="thread">
+    <div data-turn-key="private-turn-one">
+      <div data-content-search-unit-key="private-unit-one:0:user">
+        <h5 class="sr-only">You said:</h5>
+        <div data-user-message-bubble="true">Повторный вопрос
+Вторая строка</div>
+      </div>
+    </div>
+    <div data-turn-key="private-turn-two">
+      <div data-content-search-unit-key="private-unit-two:0:assistant">
+        <div data-chatgpt-search-unit-key="private-unit-two:0:assistant" data-chatgpt-search-message-ids="private-message-id">
+          <div data-markdown-text-style="assistant-message"><p>Первый <strong>ответ</strong>.</p></div>
+          <div class="markdown"><p>Вторая часть.</p><pre><code class="language-js">const value = 42;</code></pre></div>
+        </div>
+      </div>
+      <button>NOT_A_MESSAGE_BUTTON</button>
+    </div>
+    <div data-turn-key="private-turn-three">
+      <div data-chatgpt-search-unit-key="private-unit-three:0:user">
+        <div data-user-message-bubble="true">Повторный вопрос
+Вторая строка</div>
+      </div>
+    </div>
+    <section data-turn="assistant" data-turn-id="fixture-turn-four"><h6 class="sr-only">ChatGPT said:</h6><div class="markdown"><p>Второй ответ.</p></div></section>
+    <section data-turn="user" data-turn-id="fixture-turn-five"><div data-user-message-bubble="true">Ещё вопрос.</div></section>
+    <div data-turn-key="private-turn-six"><div data-markdown-text-style="assistant-message"><p>Ответ без роли.</p></div></div>
+    <div data-turn-key="private-turn-seven" style="display:none"><div data-content-search-unit-key="private-unit-seven:0:assistant"><p>NOT_A_MESSAGE_CSS_HIDDEN</p></div></div>
+    <p class="markdown">NOT_A_MESSAGE_UNSCOPED_MARKDOWN</p>
+    <form data-chatgpt-composer><div role="textbox" contenteditable="true">NOT_A_MESSAGE_COMPOSER</div></form>
+  </div>
+  <script type="application/json">{"token":"NOT_A_MESSAGE_SECRET"}</script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Nanitnet — экспорт ChatGPT",
+  "version": "0.4.0",
+  "description": "Локальный экспорт текущей ветки ChatGPT в Markdown и JSON: напрямую через API или с подгрузкой при прокрутке.",
+  "minimum_chrome_version": "109",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_title": "Nanitnet — экспорт чата",
+    "default_popup": "popup.html"
+  },
+  "content_security_policy": {
+    "extension_pages": "default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'none'; img-src 'none'; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'"
+  }
+}

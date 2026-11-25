@@ -1,0 +1,11 @@
+{
+  "name": "chatgpt-export-by-nanitnet",
+  "private": true,
+  "version": "0.4.0",
+  "type": "module",
+  "description": "Dependency-free, local-only ChatGPT conversation exporter",
+  "scripts": {
+    "package": "python3 scripts/package.py",
+    "test": "node --test tests/format.test.js tests/api.test.js tests/package.test.js"
+  }
+}
